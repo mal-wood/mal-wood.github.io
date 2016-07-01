@@ -1,7 +1,26 @@
 body {
 	background-color: #FFFF9D;
+	max-width:960px;
 }
 
 footer {
 	background-color: #ACEBAE;
+}
+
+.main {
+	display: inline-block;
+	width: 78%;
+	vertical-align: top;
+
+}
+
+nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 18%
+	
+}
+
+nav li {
+	list-style-type: none;
 }
