@@ -1,10 +1,11 @@
 body {
-	background-color: #FFFF9D;
+	background-color: #B64926;
 	max-width:960px;
+	font-family:Arial;
 }
 
 footer {
-	background-color: #ACEBAE;
+	text-align: center;
 }
 
 .main {
@@ -14,13 +15,27 @@ footer {
 
 }
 
-nav {
-	display: inline-block;
-	vertical-align: top;
-	width: 18%
-	
+
+.topnav {
+	list-style-type:none;
+	width: 200px;
+	display: block;
+	text-decoration: none;
+	background-color: #468966;
+	text-align:center;
+	margin: 0;
+    padding: 0;
 }
 
-nav li {
-	list-style-type: none;
+li{
+	display: block;
+	text-decoration: none;
+	border: 1px;
+	padding:5px 5px 5px 5px;
+}
+
+li:hover {
+    background-color: #FFF0A5;
+    color: #468966;
+    width:200px;
 }
