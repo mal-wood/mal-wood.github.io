@@ -7,10 +7,16 @@ body {
 
 h1 {
 	color:#2AA876;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 24px;
+	text-align: center;
 }
 
 footer {
 	text-align: center;
+	background-color: #2AA876;
+	display: block;
+	width: 100%;
 }
 
 .main {
@@ -41,7 +47,7 @@ footer {
 	padding:5px 5px 5px 5px;
 	text-transform: uppercase;
 	list-style-position:inside;
-    border: 3px solid black;
+    border: 2px solid #F19C65;
 }
 
 nav li:hover {
@@ -55,9 +61,10 @@ nav li:hover {
 }
 
 #backgroundimg_heading {
-	color: #F19C65;
+	color: #2AA876;
 	font-family: 'Covered By Your Grace', cursive;
 	font-size: 60px;
+	text-align: left;
 	background-image: url(https://c6.staticflickr.com/5/4137/4997343389_1a90301105_b.jpg);
 	display: block;
 	width: 700px;
@@ -65,3 +72,12 @@ nav li:hover {
 	margin-top: 20px;
 	padding: 20px;
 }
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
