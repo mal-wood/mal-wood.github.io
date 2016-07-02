@@ -16,7 +16,11 @@ footer {
 	text-align: center;
 	background-color: #2AA876;
 	display: block;
-	width: 100%;
+	width: 130%;
+	float: left;
+	clear: both;
+	padding: 20px 0px;
+	overflow: auto;
 }
 
 .main {
@@ -60,6 +64,14 @@ nav li:hover {
 	color:#FFD265;
 }
 
+a:link {
+	color: #CE4D45;
+}
+
+a:visited {
+	color: #FFD265;
+}
+
 #backgroundimg_heading {
 	color: #2AA876;
 	font-family: 'Covered By Your Grace', cursive;
@@ -72,12 +84,3 @@ nav li:hover {
 	margin-top: 20px;
 	padding: 20px;
 }
-
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
