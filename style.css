@@ -89,6 +89,14 @@ a:visited {
 	padding: 20px;
 }
 
+.boat {
+	width:400px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
 @media (max-width: 683px) {
 	.topnav li {
 		font-size: 10px;
