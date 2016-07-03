@@ -72,6 +72,10 @@ a:visited {
 	color: #FFD265;
 }
 
+.form {
+	padding-top: 40px;
+}
+
 #backgroundimg_heading {
 	color: #2AA876;
 	font-family: 'Covered By Your Grace', cursive;
@@ -83,4 +87,14 @@ a:visited {
 	height: 400px;
 	margin-top: 20px;
 	padding: 20px;
+}
+
+@media (max-width: 683px) {
+	.topnav li {
+		font-size: 10px;
+	}
+
+	.main {
+		float:left;
+	}
 }
