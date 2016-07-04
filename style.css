@@ -40,9 +40,9 @@ footer {
 	list-style-type:none;
 	width: 200px;
 	text-decoration: none;
-	background-color: #0A7B83;
+	background-color: #FFD265;
 	text-align:center;
-	margin: 0px;
+	margin: 0 0 0 20px;
     padding: 0px;
 }
 
@@ -64,6 +64,12 @@ footer {
 	padding-top: 40px;
 }
 
+.smallfont {
+	font-size:10px;
+	font-style: italic;
+	color: #2AA876
+}
+
 nav li:hover {
     background-color: #F19C65;
     color: #FFD265;
@@ -73,11 +79,11 @@ nav li:hover {
 }
 
 a:link {
-	color: #CE4D45;
+	color: #FFD265;
 }
 
 a:visited {
-	color: #FFD265;
+	color: #2AA876;
 }
 
 
@@ -91,16 +97,32 @@ a:visited {
 	width: 700px;
 	height: 400px;
 	margin-top: 20px;
-	padding: 20px;
+	padding: 10px;
+	padding-bottom:0px;
 }
 
 
 #homelink:hover {
 	background-color: #CE4D45;
 	font-weight: bold;
-	font-size:18px;
+	font-size:20px;
 }
 
+#boatimg {
+	width:700px;
+}
+
+#treeimg {
+	width:700px;
+}
+
+#chabotimg {
+	width: 700px;
+}
+
+#mountimg {
+	width: 700px;
+}
 @media (max-width: 683px) {
 	.topnav li {
 		font-size: 10px;
