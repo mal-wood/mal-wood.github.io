@@ -1,7 +1,135 @@
 body {
-	background-color: #FFFF9D;
+	background-color: #0A7B83;
+	max-width:960px;
+	font-family:Arial;
+	color:#FFD265;
+}
+
+h1 {
+	color:#2AA876;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 24px;
+	text-align: center;
 }
 
 footer {
-	background-color: #ACEBAE;
+	text-align: center;
+	background-color: #2AA876;
+	display: block;
+	width: 135%;
+	float: left;
+	clear: both;
+	padding: 20px 0px;
+	overflow: auto;
+}
+
+.main {
+	width: 70%;
+	vertical-align: top;
+	float:right;
+	margin-top: 5px;
+}
+
+.navsection {
+	width: 200px;
+	display: inline-block;
+	float:left;
+}
+
+.topnav {
+	list-style-type:none;
+	width: 200px;
+	text-decoration: none;
+	background-color: #FFD265;
+	text-align:center;
+	margin: 0 0 0 20px;
+    padding: 0px;
+}
+
+.topnav li{
+	display: block;
+	padding:5px 5px 5px 5px;
+	text-transform: uppercase;
+	list-style-position:inside;
+    border: 2px solid #F19C65;
+}
+
+
+.topnav a {
+	text-decoration: none;
+	color:#FFD265;
+}
+
+.form {
+	padding-top: 20px;
+}
+
+.smallfont {
+	font-size:10px;
+	font-style: italic;
+	color: #2AA876
+}
+
+nav li:hover {
+    background-color: #F19C65;
+    color: #FFD265;
+    font-weight: bold;
+	font-size:18px;
+	text-decoration: none;
+}
+
+a:link {
+	color: #FFD265;
+}
+
+a:visited {
+	color: #E74C3C;
+}
+
+
+#backgroundimg_heading {
+	color: #2AA876;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 60px;
+	text-align: left;
+	background-image: url(https://c6.staticflickr.com/5/4137/4997343389_1a90301105_b.jpg);
+	display: block;
+	width: 700px;
+	height: 400px;
+	margin-top: 20px;
+	padding: 10px;
+	padding-bottom:0px;
+}
+
+
+#homelink:hover {
+	background-color: #CE4D45;
+	font-weight: bold;
+	font-size:20px;
+}
+
+#boatimg {
+	width:700px;
+}
+
+#treeimg {
+	width:700px;
+}
+
+#chabotimg {
+	width: 700px;
+}
+
+#mountimg {
+	width: 700px;
+}
+@media (max-width: 683px) {
+	.topnav li {
+		font-size: 10px;
+	}
+
+	.main {
+		float:left;
+	}
+
 }
