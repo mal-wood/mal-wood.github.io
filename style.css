@@ -16,7 +16,7 @@ footer {
 	text-align: center;
 	background-color: #2AA876;
 	display: block;
-	width: 130%;
+	width: 135%;
 	float: left;
 	clear: both;
 	padding: 20px 0px;
@@ -83,7 +83,7 @@ a:link {
 }
 
 a:visited {
-	color: #2AA876;
+	color: #E74C3C;
 }
 
 
